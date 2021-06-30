@@ -3,7 +3,9 @@ const app = express();
 const path = require("path");
 
 //Server
-app.listen(3000, () => console.log("Server Start", "http://localhost:3000"));
+app.listenerCount(process.env.PORT || 3000, function(){
+    console.log("Servidor corriendo en el puerto 3000")
+})
 
 //Public Access
 app.use(express.static("../public"));
