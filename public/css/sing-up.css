@@ -1,0 +1,111 @@
+main.main-sing-up {
+  width: 80vw;
+  height: 40vh;
+  margin: auto;
+  background-color: whitesmoke;
+  justify-content: center;
+}
+p#mensaje-sing-up {
+  display: flex;
+  justify-content: center;
+  font-weight: 300;
+  font-size: 20px;
+  padding: 20px;
+}
+section.usuario {
+  display: flex;
+  justify-content: center;
+}
+section.usuario input {
+  display: flex;
+  margin: 10px;
+  width: 50vw;
+  height: 8vh;
+  padding: 5px;
+  border: none;
+  border-radius: 3%;
+}
+fieldset.password {
+  display: flex;
+  justify-content: center;
+}
+fieldset.password input {
+  display: flex;
+  margin: 10px;
+  width: 50vw;
+  height: 8vh;
+  padding: 5px;
+  border: none;
+  border-radius: 3%;
+}
+section.button-enviar {
+  display: flex;
+  justify-content: center;
+}
+section.button-enviar button {
+  display: flex;
+  margin: 10px;
+  width: 50vw;
+  height: 8vh;
+  padding: 5px;
+  border: none;
+  border-radius: 3%;
+  background-color: #eaeaea;
+  color: #000;
+  align-items: center;
+  justify-content: center;
+  transition-property: all;
+  transition-duration: 0.5s;
+}
+section.button-enviar button:hover {
+  background-color: #1259c3;
+  color: #eaeaea;
+}
+img.banner {
+  width: 100vw;
+}
+
+@media screen and (min-width: 320px) {
+  section.usuario input {
+    width: 70vw;
+    height: 6vh;
+  }
+  fieldset.password input {
+    width: 70vw;
+    height: 6vh;
+  }
+  section.button-enviar button {
+    width: 70vw;
+    height: 6vh;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  section.usuario input {
+    width: 70vw;
+    height: 6vh;
+  }
+  fieldset.password input {
+    width: 70vw;
+    height: 6vh;
+  }
+  section.button-enviar button {
+    width: 70vw;
+    height: 6vh;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  section.usuario input {
+    width: 60vw;
+    height: 6vh;
+  }
+  fieldset.password input {
+    width: 60vw;
+    height: 6vh;
+  }
+  section.button-enviar button {
+    width: 60vw;
+    height: 6vh;
+  }
+}

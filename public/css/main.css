@@ -1,0 +1,125 @@
+main.main {
+  width: 90vw;
+  margin: auto;
+}
+section.contenedor {
+  display: flex;
+  flex-flow: row wrap;
+  flex-direction: column;
+}
+.contenedor h3 {
+  font-weight: 400;
+  color: #666;
+  width: 100%;
+  font-size: 20px;
+  text-align: center;
+  padding: 5px;
+  border-color: rgb(100, 100, 100);
+}
+article.articulo img {
+  width: 100%;
+}
+
+article.articulo {
+  background-color: white;
+  margin-bottom: 10px;
+  padding: 10px;
+  box-shadow: none;
+  transition-property: all;
+  transition-duration: 0.5s;
+}
+article.articulo:hover {
+  box-shadow: 0px 0px 10px rgb(100, 100, 100);
+  transform: scale(1.03);
+}
+.info {
+  border-top: 0.06rem solid #ebebeb;
+  padding-left: 0.93rem;
+  padding-right: 0.93rem;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.fa-truck {
+  font-size: 16px;
+  padding: 5px;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #39b54a;
+  color: #39b54a;
+  background-color: white;
+  border-radius: 50%;
+  transition-property: all;
+  transition-duration: 0.5s;
+}
+.fa-truck:hover {
+  transform: rotate(360deg);
+}
+.camion {
+  display: flex;
+  width: 100%;
+  align-self: flex-end;
+  justify-content: flex-end;
+}
+p.precio {
+  display: flex;
+  flex-wrap: wrap;
+  width: 30%;
+}
+p.descuento {
+  display: flex;
+  flex-wrap: wrap;
+  width: 60%;
+  color: #39b54a;
+  justify-content: flex-start;
+}
+p.nombre {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  color: #666;
+  margin: 0.9375rem 0;
+  opacity: 0;
+  transition-property: all;
+  transition-duration: 0.5s;
+}
+article.articulo:hover p.nombre {
+  opacity: 1;
+}
+img.banner {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+@media screen and (min-width: 320px) {
+  img.banner {
+    width: 100vw;
+  }
+}
+@media screen and (min-width: 768px) {
+  section.contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+  article.articulo {
+    width: 45%;
+  }
+  p.precio {
+    width: 20%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  article.articulo {
+    width: 20vw;
+  }
+  p.precio {
+    width: 35%;
+  }
+  p.descuento {
+    width: 50%;
+    justify-content: flex-start;
+  }
+}

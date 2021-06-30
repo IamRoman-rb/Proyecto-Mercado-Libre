@@ -1,0 +1,56 @@
+/*TODO ESTO ES EL FONDO DE LA PAGINA*/
+body {
+  font-family: "Roboto";
+  background-color: #ebebeb;
+  overflow-x: hidden;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/*MEDIA PARA PHONES*/
+@media screen and (min-width: 320px) {
+  body {
+    font-family: "Roboto";
+    background-color: #ebebeb;
+    overflow-x: hidden;
+    margin-top: auto;
+  }
+  * {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+}
+
+/*MEDIA PARA TABLETS*/
+
+@media screen and (min-width: 768px) {
+  body {
+    font-family: "Roboto";
+    background-color: #ebebeb;
+    overflow-x: hidden;
+  }
+  * {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+}
+
+/*MEDIA PARA DESKTOP*/
+
+@media screen and (min-width: 1200px) {
+  body {
+    font-family: "Roboto";
+    background-color: #ebebeb;
+    overflow-x: hidden;
+  }
+  * {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+}

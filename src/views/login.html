@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+      <title>Login</title> <!--TITULO DE PAGINA-->
+  
+    <!--LOGO MERCADO LIBRE-->
+  
+    <link rel="shortcut icon" href="/img/1200px-MercadoLibre.svg-1-810x409.png"/> 
+      
+      <!--LINKS ARCHIVOS CSS-->
+      <link rel="stylesheet" href="/css/reset.css">
+      <link rel="stylesheet" href="/css/normalize.css">
+      <link rel="stylesheet" href="/css/header.css">   
+      <link rel="stylesheet" href="/css/body.css">
+      <link rel="stylesheet" href="/css/footer.css">
+      <link rel="stylesheet" href="/css/login.css">
+  
+     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minum-scale=1.0" >
+  </head>
+  <body> 
+    <header class="header">
+      <section class="main-header">
+        <figure class="logo"> <a href="/"> <img src="/img/logo-mercado-liebre.svg"> </a> </figure>
+        <form class="barra-busqueda" method="GET" action="/">
+          <input type="text" placeholder="Buscar"name="barra-busqueda" id="barra-busqueda">
+          <button type="submit" name="button-search"><i class="fas fa-search"></i></button>
+        </form> 
+        <h2 id="mensaje-publicidad-inicio-copy"> <i class="fas fa-hand-holding-usd"></i> Compá en cuotas y sin tarjeta de credito </i></h2>
+      </section>
+      <nav class="ul">
+        <ul>
+          <li class="links"><a href="">Ofertas</a></li>
+          <li class="links"><a href="">Tiendas Oficiales</a></li>
+          <li class="links"><a href="">Vender</a></li>
+          <li class="links"><a href="">Ayuda</a></li>
+        </ul>
+
+        <ul>
+          <li class="links"><a href="/login">Crea tu cuenta <i class="far fa-address-card"></i></a></li>  
+          <li class="links"><a href="/sing-up">Ingresa <i class="fas fa-sign-in-alt"></i></a></li>
+          <li class="links"><a href="">Mis compras <i class="fas fa-shopping-basket"></i></a></li> 
+        </ul>
+        </nav>
+
+        <nav class="burger-menu">
+          <a href="#">
+            <i class="fas fa-bars">
+              
+            </i>
+          </a>
+        </nav>
+
+    </header>
+      <img class="banner" src="/img/img-home-banner.jpg">
+      <main class="main-login">
+        <p class="mensaje-inicio">Crea Tu Cuenta</p>
+        <form action="/" method="GET">
+          <section class="nombre">
+          <label for="nombre">
+          <input type="text" placeholder="Nombre y apellido"name="nombre" id="nombre" required>
+          </label>
+          </section>
+
+          <section class="usuario">
+          <label for="Usuario">
+          <input type="text" placeholder="Nombre de Usuario"name="usuario" id="usuario" required>
+          </label>
+          </section>
+
+          <section class="email">
+          <label for="email">
+          <input type="email" placeholder="Email"name="email" id="email" required>
+          </label>
+          </section>
+
+          <h1>Fecha de Nacimiento</h1>
+          <section class="fecha">
+          <label for="fecha"></label>
+          <input type="date" name="fecha" id="fecha" required>
+          </label>
+          </section>
+          <section class="domicilio">
+          <label for="domicilio">
+          <input type="text" placeholder="Domicilio" name="domicilio" id="domicilio" required>
+          </label>
+          </section>
+
+          <h2>Perfil De Usuario</h2>
+
+          <section class="dato-perfil">
+          <section class="comprador">
+          <label>
+          <input type="radio" name="dato-perfil" value="Comprador">Comprador
+          </label>
+          </section>
+          <section class="vendedor">
+          <label>
+          <input type="radio" name="dato-perfil" value="Vendedor">Vendedor
+          </label>
+          </section>
+          </section>
+
+          <h3>Intereses</h3>
+
+          <filedset class="intereses">
+            <fieldset class="intereses2">
+          <label>
+            <input type="checkbox" name="interes" value="Electro" >Electro
+          </label>
+            </fieldset>
+          <fieldset class="intereses2">
+          <label>
+            <input type="checkbox" name="interes" value="Hogar">Hogar
+          </label>
+          </fieldset>
+          <fieldset class="intereses2">
+          <label>
+            <input type="checkbox" name="interes" value="Jugueteria">Jugueteria
+          </label>
+          </fieldset>
+          <fieldset class="intereses2">
+          <label>
+            <input type="checkbox" name="interes" value="Visa sana">Vida sana
+          </label>
+          </fieldset>
+        </filedset>
+
+          <h4>Usuario</h4>
+
+          <section >
+          <label id="foto-de-perfil">
+            <i class="far fa-user"></i><input type="file" id="foto-de-perfil2" accept=".png, .jpg">
+          </label>
+          </section>
+          <fieldset class="password">
+          <label>
+            <input type="password" placeholder="Contraseña" name="password">
+          </label>
+          </fieldset>
+          <fieldset class="confirm-password"> 
+          <label>
+            <input type="password" placeholder="Confirmar Contraseña" name="password">
+          </label>
+          </fieldset>
+          <label>
+            <section class="button-enviar">
+            <button type="button" name="enviar">Enviar</button>
+          </label>
+            </section>
+        <section class="button-reset">
+          <label>
+            <button type="button" name="reset">Reset</button>
+          </label>
+        </section>
+        </form>
+      </main> 
+      <footer class="footer">
+        <section class="articulos-footer">
+          <article class="final-footer">
+            <p class="logo-footer"><i class="fas fa-credit-card"></i></p>
+            <h4>Paga con tarjeta o en efectivo</h4>
+            <p class="texto">Con MercadoLibreCash tenes cuotas sin interes con tarjeta o efectivo en puntos de pago. ¡Y siempre es seguro!</p>
+          </article>
+          <article class="final-footer">
+            <p class="logo-footer"><i class="fas fa-gift"></i></p>
+            <h4 class="encabezado"> Envios gratis desde los $2.500</h4>
+            <p class="texto">Solo por estar resgistrado en Mercado Libre tenes envios gratis en miles de productos. Es un beneficio de Mercado Puntos.</p>
+          </article>
+          <article class="final-footer">
+            <p class="logo-footer"><i class="fas fa-user-shield"></i></p>
+            <h4 class="encabezado">Seguridad de principio a fin</h4>
+            <p class="texto">¿No te gusta? ¡Devolvelo! En Mercado Libre no hay nada que no puedas hacer porque estas siempre protegid@</p>
+          </article>
+        </section>
+        <section class="copy">
+          <p>Copyright © 1999-2020 MercadoLiebre S.R.L.</p>
+        </section>
+      </footer>
+ </body>
+</html>

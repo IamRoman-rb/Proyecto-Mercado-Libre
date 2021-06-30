@@ -1,0 +1,396 @@
+main.main-login {
+  width: 100vw;
+  margin: auto;
+  background-color: whitesmoke;
+  justify-content: center;
+}
+p.mensaje-inicio {
+  display: flex;
+  justify-content: center;
+  font-weight: 300;
+  font-size: 20px;
+  padding: 20px;
+}
+section.nombre {
+  display: flex;
+  justify-content: center;
+}
+section.nombre input {
+  display: flex;
+  margin: 10px;
+  width: 500px;
+  height: 50px;
+  padding: 5px;
+  border: none;
+  border-radius: 3%;
+}
+section.usuario {
+  display: flex;
+  justify-content: center;
+}
+section.usuario input {
+  display: flex;
+  margin: 10px;
+  width: 500px;
+  height: 50px;
+  padding: 5px;
+  border: none;
+  border-radius: 3%;
+}
+section.email {
+  display: flex;
+  justify-content: center;
+}
+section.email input {
+  display: flex;
+  margin: 10px;
+  width: 500px;
+  height: 50px;
+  padding: 5px;
+  border: none;
+  border-radius: 3%;
+}
+h1 {
+  display: flex;
+  justify-content: center;
+  font-weight: 300;
+  font-size: 30px;
+}
+section.fecha {
+  display: flex;
+  justify-content: center;
+}
+section.fecha input {
+  display: flex;
+  margin: 10px;
+  width: 10vw;
+  padding: 10px;
+  border: none;
+  background-color: white;
+}
+section.domicilio {
+  display: flex;
+  justify-content: center;
+}
+section.domicilio input {
+  display: flex;
+  margin: 10px;
+  width: 300px;
+  height: 50px;
+  padding: 5px;
+  border: none;
+  border-radius: 3%;
+}
+h2 {
+  display: flex;
+  justify-content: center;
+  font-weight: 300;
+  font-size: 30px;
+  margin: 10px;
+}
+.dato-perfil {
+  display: flex;
+  justify-content: center;
+}
+.dato-perfil input {
+  display: flex;
+  margin: 10px;
+}
+section.comprador {
+  margin-right: 10px;
+}
+section.vendedor {
+  margin-left: 10px;
+}
+h3 {
+  display: flex;
+  justify-content: center;
+  font-weight: 300;
+  font-size: 30px;
+  margin: auto;
+  padding: 20px;
+}
+fieldset.intereses {
+  display: flex;
+  flex-direction: column;
+}
+fieldset.intereses2 {
+  display: flex;
+  justify-content: left;
+  margin-left: 45%;
+  padding: 10px;
+}
+h4 {
+  display: flex;
+  justify-content: center;
+  font-weight: 300;
+  font-size: 30px;
+  margin: 10px;
+}
+
+label#foto-de-perfil {
+  display: flex;
+  justify-content: center;
+  background-color: #eaeaea;
+  padding: 20px;
+  width: 20vw;
+  margin: auto;
+  border-radius: 3%;
+  transition-property: all;
+  transition-duration: 0.5s;
+}
+label#foto-de-perfil:hover {
+  background-color: #1259c3;
+  color: #eaeaea;
+}
+
+input#foto-de-perfil2 {
+  position: relative;
+  display: none;
+}
+fieldset.password {
+  display: flex;
+  justify-content: center;
+}
+fieldset.password input {
+  display: flex;
+  margin: 10px;
+  width: 300px;
+  height: 50px;
+  padding: 5px;
+  border: none;
+  border-radius: 3%;
+}
+fieldset.confirm-password {
+  display: flex;
+  justify-content: center;
+}
+fieldset.confirm-password input {
+  display: flex;
+  margin: 10px;
+  width: 300px;
+  height: 50px;
+  padding: 5px;
+  border: none;
+  border-radius: 3%;
+}
+section.button-enviar {
+  display: flex;
+  justify-content: center;
+}
+section.button-enviar button {
+  display: flex;
+  margin: 10px;
+  width: 300px;
+  height: 50px;
+  padding: 5px;
+  border: none;
+  border-radius: 3%;
+  background-color: #eaeaea;
+  color: #000;
+  align-items: center;
+  justify-content: center;
+  transition-property: all;
+  transition-duration: 0.5s;
+}
+section.button-enviar button:hover {
+  background-color: #1259c3;
+  color: #eaeaea;
+}
+section.button-reset {
+  display: flex;
+  justify-content: center;
+}
+section.button-reset button {
+  display: flex;
+  margin: 10px;
+  width: 300px;
+  height: 50px;
+  padding: 5px;
+  border: none;
+  border-radius: 3%;
+  background-color: #eaeaea;
+  color: #000;
+  align-items: center;
+  justify-content: center;
+  transition-property: all;
+  transition-duration: 0.5s;
+}
+section.button-reset button:hover {
+  background-color: #1259c3;
+  color: #eaeaea;
+}
+img.banner {
+  width: 100vw;
+}
+@media screen and (min-width: 320px) {
+  main.main-login {
+    width: 80vw;
+  }
+  p.mensaje-inicio {
+    font-size: 100%;
+  }
+  section.nombre input {
+    width: 60vw;
+  }
+  section.usuario input {
+    width: 60vw;
+  }
+  section.email input {
+    width: 60vw;
+  }
+  h1 {
+    font-size: 100%;
+  }
+  section.fecha input {
+    width: 60vw;
+  }
+  section.domicilio input {
+    width: 60vw;
+  }
+  h2 {
+    font-size: 100%;
+  }
+  .dato-perfil input {
+    width: 10vw;
+  }
+  h3 {
+    font-size: 100%;
+  }
+  h4 {
+    font-size: 100%;
+  }
+  section#foto-de-perfil {
+    width: 30vw;
+    height: 10vh;
+  }
+  fieldset.password input {
+    width: 60vw;
+  }
+  fieldset.confirm-password input {
+    width: 60vw;
+  }
+  section.button-enviar button {
+    width: 60vw;
+  }
+  section.button-reset button {
+    width: 60vw;
+  }
+  fieldset.foto-de-perfil input {
+    width: 60vw;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  main.main-login {
+    width: 80vw;
+  }
+  p.mensaje-inicio {
+    font-size: 100%;
+  }
+  section.nombre input {
+    width: 60vw;
+  }
+  section.usuario input {
+    width: 60vw;
+  }
+  section.email input {
+    width: 60vw;
+  }
+  h1 {
+    font-size: 100%;
+  }
+  section.fecha input {
+    width: 20vw;
+  }
+  section.domicilio input {
+    width: 60vw;
+  }
+  h2 {
+    font-size: 100%;
+  }
+  .dato-perfil input {
+    width: 10vw;
+  }
+  h3 {
+    font-size: 100%;
+  }
+  h4 {
+    font-size: 100%;
+  }
+  section#foto-de-perfil {
+    width: 20vw;
+  }
+  fieldset.password input {
+    width: 60vw;
+  }
+  fieldset.confirm-password input {
+    width: 60vw;
+  }
+  section.button-enviar button {
+    width: 60vw;
+  }
+  section.button-reset button {
+    width: 60vw;
+  }
+  fieldset.foto-de-perfil input {
+    width: 60vw;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  main.main-login {
+    width: 80vw;
+  }
+  p.mensaje-inicio {
+    font-size: 100%;
+  }
+  section.nombre input {
+    width: 60vw;
+  }
+  section.usuario input {
+    width: 60vw;
+  }
+  section.email input {
+    width: 60vw;
+  }
+  h1 {
+    font-size: 100%;
+  }
+  section.fecha input {
+    width: 60vw;
+  }
+  section.domicilio input {
+    width: 60vw;
+  }
+  h2 {
+    font-size: 100%;
+  }
+  .dato-perfil input {
+    width: 10vw;
+  }
+  h3 {
+    font-size: 100%;
+  }
+  h4 {
+    font-size: 100%;
+  }
+  section#foto-de-perfil {
+    width: 15vw;
+  }
+  fieldset.password input {
+    width: 60vw;
+  }
+  fieldset.confirm-password input {
+    width: 60vw;
+  }
+  section.button-enviar button {
+    width: 60vw;
+  }
+  section.button-reset button {
+    width: 60vw;
+  }
+  fieldset.foto-de-perfil input {
+    width: 60vw;
+  }
+}
