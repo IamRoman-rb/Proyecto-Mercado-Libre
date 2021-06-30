@@ -8,7 +8,7 @@ app.listen(process.env.PORT || 3000, function(){
 })
 
 //Public Access
-app.use(express.static("../public"));
+app.use(express.static(path.resolve(__dirname,"../public")));
 
 //Websites Routes Requires
 const web = require("./routers/web");
