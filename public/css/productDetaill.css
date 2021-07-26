@@ -1,3 +1,6 @@
+section#articulo, article.detaill-article figure,article.detaill-article, figure img, article#info{
+  height: auto;
+}
 section#articulo{
     display: flex;
     justify-content: center;
@@ -12,7 +15,7 @@ article.detaill-article {
     background-color: white;
 }
 figure img{
-    width: 80%;
+    width: 70%;
 }
 article.detaill-article figure{
     text-align: center;
@@ -85,7 +88,8 @@ article#info {
     margin: auto;
   }
   button#comprar{
-      width: 20vw;
+      width: 25vw;
+      text-align: center;
       border: none;
       border-radius: 5%;
       padding: 0.8rem;
