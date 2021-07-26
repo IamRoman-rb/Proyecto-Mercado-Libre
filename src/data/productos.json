@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "name": "Cafetera Moutinex",
+        "price": 6.770,
+        "imagenes": [1],
+        "oferts": true
+    },
+    {
+        "id": 2,
+        "name": "MackBook pro 2019",
+        "price": 230.000,
+        "imagenes": [2],
+        "oferts": true
+    },
+    {
+        "id": 3,
+        "name": "Samsung Galaxy S10",
+        "price": 70.500,
+        "imagenes": [3],
+        "oferts": true
+    },
+    {
+        "id": 4,
+        "name": "SmartTv Samsung 43",
+        "price": 23.200,
+        "imagenes": [4],
+        "oferts": true
+    }
+]

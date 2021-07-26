@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <%- include("../includes/head") %>
+  <body>
+    <%- include("../includes/header") %> 
+    <section id="articulo">
+      <article class="detaill-article">
+        <figure>
+          <img src="/<%= detaill.imagenes[0].url %>" alt="" />
+        </figure>
+      </article>
+      <article id="info">
+        <p id="nombre"> <%= detaill.name %></p>
+        <p id="corazon"><i class="far fa-heart"></i></p>
+        <p id="stars"><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></p>
+        <p id="camion"><i class="fas fa-truck"></i></p>
+        <p id="precio"><%= detaill.price %></p>
+        <p id="descuento"> 40%off</p>
+        <button type="button" id="comprar">Comprar</button>
+      </article>
+    </section>
+     <%- include("../includes/footer") %>
+  </body>
+</html>

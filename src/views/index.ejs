@@ -1,0 +1,60 @@
+<html>
+      <%- include("includes/head") %> 
+      <%- include("includes/header") %> 
+<body>
+    <img class="banner" src="/img/img-home-banner.jpg"><!--BANNER-->
+    <main class="main">
+        <section class="contenedor" id="section1">
+          
+         <h3>Basado en tu ultima visita</h3> <!--INICIO DE SECCION BASADO EN ULTIMA VISTA-->
+
+         <% if (productos.length > 0) { %>
+
+            <% productos.forEach(producto => { %>
+
+                  <article class="articulo">
+                        <a href="/productDetaill/<%= producto.id  %>">
+                        <figure>
+                              <img src="<%= producto.imagenes[0].url %> " alt="">
+                        </figure>
+                              <article class="info">
+                              <p class="camion"><i class="fas fa-truck"></i></p>
+                              <p class="precio"> <%= producto.price %> </p>
+                              <p class="descuento">40%off</p>
+                              <p class="nombre"><%= producto.name %> </p>
+                              </article>
+                        </a>
+                      </article>
+            <% }) %>
+          
+         <% } %>
+          </section>   <!--FIN DE SECCION BASADO EN ULTIMA VISTA-->
+
+    <section class="contenedor" id="section2">
+
+          <h3 class="cabecera">Seccion de Ofertas</h3> <!--COMIENZO DE SECCION OFERTAS-->
+        
+          <% if (productos.length > 0) { %>
+
+            <% productos.forEach(producto => { %>
+
+                  <article class="articulo">
+                        <a href="/productDetaill/<%= producto.id  %> ">
+                        <figure>
+                              <img src="<%= producto.imagenes[0].url %> " alt="">
+                        </figure>
+                              <article class="info">
+                              <p class="camion"><i class="fas fa-truck"></i></p>
+                              <p class="precio"> <%= producto.price %> </p>
+                              <p class="descuento">40%off</p>
+                              <p class="nombre"><%= producto.name %> </p>
+                              </article>
+                        </a>
+                      </article>
+            <% }) %>
+         <% } %>
+    </section>
+    </main> <!--FIN DE SECCION OFERTAS-->
+    <%- include("includes/footer") %> 
+</body>
+</html>

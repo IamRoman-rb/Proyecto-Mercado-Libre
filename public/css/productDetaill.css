@@ -1,0 +1,136 @@
+section#articulo{
+    display: flex;
+    justify-content: center;
+}
+article.detaill-article {
+    width: 60vw;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 0.5rem;
+    border-top-left-radius: 5%;
+    border-bottom-left-radius: 5%;
+    background-color: white;
+}
+figure img{
+    width: 80%;
+}
+article.detaill-article figure{
+    text-align: center;
+}
+article#info {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    background-color: white;
+    border-top: 0.06rem solid #ebebeb;
+    width: 30vw;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-top-right-radius: 5%;
+    border-bottom-right-radius: 5%;
+  }
+  p#nombre {
+    margin: auto;
+    font-weight: 700;
+    font-size: 0.58rem;
+    color: black;
+  } 
+  p#corazon{
+      display: flex;
+      color: #1259c3;
+      justify-content: flex-end;
+      margin: auto;
+  }
+
+  p#stars{
+      display: flex;
+      margin-left: 40%;
+      text-align: right;
+  }
+  i.fa-star{
+      font-size: 0.8rem;
+      color: #1259c3; 
+  }
+  p#precio {
+      margin: auto;
+    color: black;
+  }
+  p#descuento {
+      margin: auto;
+    color: #39b54a;
+  }
+  .fa-truck {
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    color: #39b54a;
+    background-color: white;
+    border-radius: 50%;
+    margin-right: 1rem;
+    transition-property: all;
+    transition-duration: 0.5s;
+  }
+  .fa-truck:hover {
+    transform: rotate(360deg);
+  }
+  p#camion {
+    display: flex;
+    width: 100%;
+    align-self: flex-end;
+    justify-content: flex-end;
+  }
+  button{
+    margin: auto;
+  }
+  button#comprar{
+      width: 20vw;
+      border: none;
+      border-radius: 5%;
+      padding: 0.8rem;
+      transition: all 0.5s;
+  }
+  button#comprar:hover{
+      background-color: #1259c3;
+      color: white;
+  }
+
+  @media screen and (min-width: 768px){
+      p#nombre {
+        font-size: 1.3rem;
+      }
+      i.fa-heart{
+        font-size: 1.5rem;
+    }
+      p#stars{
+        margin-left: 65%;
+    }
+    i.fa-star{
+        font-size: 1rem;
+    }
+      p#precio {
+          font-size: 1.6rem;
+      }
+      p#descuento {
+          font-size: 1.6rem;
+      } 
+      button#comprar{
+        padding: 1.2rem;
+      }
+  }
+
+  @media screen and (min-width: 1200px){
+    p#nombre {
+        font-size: 2rem;
+      }
+      i.fa-heart{
+          font-size: 2rem;
+      }
+      p#stars{
+        margin-left: 65%;
+    }
+    i.fa-star{
+        font-size: 1.5rem;
+    }
+  }

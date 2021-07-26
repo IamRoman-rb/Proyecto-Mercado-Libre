@@ -11,6 +11,7 @@ p.logo-footer {
   font-size: 1rem;
   color: #666;
   padding: 0.3rem;
+  cursor: pointer;
   transition-property: all;
   transition-duration: 0.5s;
 }

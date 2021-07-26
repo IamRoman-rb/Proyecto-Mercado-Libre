@@ -12,7 +12,7 @@ section.main-header {
 figure.logo {
   display: flex;
   width: 45vw;
-  align-items: center;
+  margin: auto;
 }
 .main-header img {
   width: 100%;
@@ -20,12 +20,13 @@ figure.logo {
 form.barra-busqueda {
   display: flex;
   width: 45vw;
+  height: 5vh;
   border-radius: 0.2rem;
   border: none;
   background-color: white;
   font-size: 0.8rem;
-  align-self: center;
-  padding: 1rem 0.5rem;
+  padding: 0.2rem;
+  margin: auto;
 }
 form.barra-busqueda input {
   width: 100%;
@@ -35,6 +36,9 @@ form.barra-busqueda input {
 form.barra-busqueda button {
   border: none;
   background-color: transparent;
+  cursor: pointer;
+  padding: 0.5rem;
+  border-radius: 18px;
 }
 #mensaje-publicidad-inicio-copy {
   display: flex;
@@ -71,7 +75,7 @@ nav.ul {
     justify-content: space-around;
   }
   form.barra-busqueda {
-    width: 20vw;
+    width: 30vw;
   }
   #mensaje-publicidad-inicio-copy {
     width: 30vw;
@@ -109,5 +113,8 @@ nav.ul {
   }
   nav.ul li {
     margin: 0 0.5rem;
+  }
+  form.barra-busqueda{
+    width: 30vw;
   }
 }

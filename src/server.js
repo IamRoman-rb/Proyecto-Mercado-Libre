@@ -10,6 +10,12 @@ app.listen(process.env.PORT || 3000, function(){
 //Public Access
 app.use(express.static(path.resolve(__dirname,"../public")));
 
+//app settings
+app.set("view engine","ejs")
+app.set('views', path.resolve(__dirname, "./views")); 
+
 //Websites Routes Requires
-const web = require("./routers/web");
-app.use(web);
+const main = require("./routers/main");
+app.use(main);
+const product = require("./routers/productos");
+app.use(product);
