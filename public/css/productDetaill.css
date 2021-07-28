@@ -8,12 +8,12 @@ section#articulo-product-detaill{
   border-radius: 0.3rem;
   box-shadow: 0px 0px 10px rgb(100, 100, 100);
 }
-section#header-product{
+section#name-product{
   display: flex;
   justify-content: flex-start;
   margin: 0.5rem 0;
 }
-section#header-product p#nombre{
+section#name-product p#nombre{
   font-size: 1rem;
   font-weight: 500;
   margin-right: 0.5rem;
@@ -24,7 +24,6 @@ p#corazon{
   color: #1259c3;
 }
 i.fa-heart{
-  display: none;
   font-size: 1rem;
 }
 section#stars-and-mas-vendido{
@@ -152,7 +151,7 @@ button#agregar-carrito{
   font-weight: 600;
 }
 @media screen and (min-width: 768px){
-section#header-product{
+section#name-product{
   margin-left: 1rem;
 }
 p#corazon{
@@ -215,5 +214,49 @@ section#stars-and-mas-vendido{
   }
   button#agregar-carrito{
     width: 50vw;
+  }
+}
+@media screen and (min-width: 1200px) {
+  section#articulo-product-detaill{
+    display: flex;
+    flex-flow: row wrap;
+  }
+  section#header-product{
+    order: 1;
+    width: 30vw;
+  }
+  section#img-article{
+    order: 0;
+  }
+  article#img-article img{
+    width: 40vw;
+  }
+  article#footer-product{
+    order: 2;
+    width: 30vw;
+    display: flex;
+    justify-content: flex-end;
+    flex-flow: row wrap;
+  }
+  section#section-share{
+    display: none;
+  }
+  select#color-option{
+    width: 20vw;
+  }
+  /* section#icon-truck{
+    text-align: end;
+  } */
+  p#stock{
+    text-align: start;
+  }
+  select#cantidad{
+    width: 20vw;
+  }
+  button#comprar{
+    width: 20vw;
+  }
+  button#agregar-carrito{
+    width: 20vw;
   }
 }

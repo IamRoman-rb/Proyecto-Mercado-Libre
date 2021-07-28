@@ -5,6 +5,7 @@
     <%- include("../includes/header") %> 
     <section id="articulo-product-detaill">
       <section id="header-product">
+      <section id="name-product">
       <p id="nombre"> <%= detaill.name %></p>
       </section>
       <p id="corazon"><i class="far fa-heart"></i></p>
@@ -12,6 +13,7 @@
       <p id="stars"><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></p>
       <p id="mas-vendido">MAS VENDIDO</p>
     </section>
+  </section>
     <section id="img-article">
       <article id="img-article">
         <figure>
@@ -19,6 +21,7 @@
         </figure>
       </article>
     </section>
+    <section>
       <article id="footer-product">
         <section id="section-share">
         <p id="share"><i class="fas fa-share-alt"></i></p>
@@ -34,13 +37,13 @@
     </section>
     <section id="info-product">
       <p id="precio"><%= detaill.price %></p>
-      <p id="descuento"> 40%off</p>
+      <p id="descuento"><%= detaill.oferts %></p>
       <!-- <section id="icon-truck">
       <p id="truck"><i class="fas fa-truck"></i></p>
     </section> -->
     </section>
     <section id="info-envio">
-      <p>Llega gratis entre el jueves y el viernes</p>
+      <p>Llega gratis <strong>entre el jueves y el viernes</strong></p>
       <p>Devolucion gratis</p>
     </section>
     <p id="stock">Stock disponible</p>
