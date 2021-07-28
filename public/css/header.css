@@ -37,8 +37,8 @@ form.barra-busqueda button {
   border: none;
   background-color: transparent;
   cursor: pointer;
-  padding: 0.5rem;
-  border-radius: 18px;
+  padding: 0.3rem;
+  border-radius: 2.5rem;
 }
 #mensaje-publicidad-inicio-copy {
   display: flex;
