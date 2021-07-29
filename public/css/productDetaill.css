@@ -218,25 +218,39 @@ section#stars-and-mas-vendido{
 }
 @media screen and (min-width: 1200px) {
   section#articulo-product-detaill{
-    display: flex;
-    flex-flow: row wrap;
+    height: 90vh;
+    position: relative;
   }
   section#header-product{
     order: 1;
-    width: 30vw;
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 1rem;
+    top: 10%;
   }
   section#img-article{
     order: 0;
+    position: absolute;
+    left: 9rem;
+    top: 15%;
   }
   article#img-article img{
-    width: 40vw;
+    width: 35vw;
+    /* text-align: start; */
+  }
+  section#footer-product{
+    position: absolute;
+    right: 0;
+    bottom: 20%;
   }
   article#footer-product{
     order: 2;
     width: 30vw;
-    display: flex;
-    justify-content: flex-end;
-    flex-flow: row wrap;
+    /* display: flex; */
+    /* justify-content: flex-end; */
+    /* flex-flow: row wrap; */
   }
   section#section-share{
     display: none;
