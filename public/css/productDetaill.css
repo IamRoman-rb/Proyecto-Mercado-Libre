@@ -1,4 +1,7 @@
-section#articulo-product-detaill{
+article#activar {
+  display: none;
+}
+section#articulo-product-detaill {
   width: 90vw;
   margin: auto;
   margin-top: 1rem;
@@ -8,35 +11,35 @@ section#articulo-product-detaill{
   border-radius: 0.3rem;
   box-shadow: 0px 0px 10px rgb(100, 100, 100);
 }
-section#name-product{
+section#name-product {
   display: flex;
   justify-content: flex-start;
   margin: 0.5rem 0;
 }
-section#name-product p#nombre{
+section#name-product p#nombre {
   font-size: 1rem;
   font-weight: 500;
   margin-right: 0.5rem;
 }
-p#corazon{
+p#corazon {
   display: flex;
   justify-content: flex-end;
   color: #1259c3;
 }
-i.fa-heart{
+i.fa-heart {
   font-size: 1rem;
 }
-section#stars-and-mas-vendido{
+section#stars-and-mas-vendido {
   display: flex;
   justify-content: flex-start;
   flex-flow: column wrap;
   margin-bottom: 0.5rem;
 }
-section#stars-and-mas-vendido p#stars{
+section#stars-and-mas-vendido p#stars {
   color: #1259c3;
   margin-bottom: 0.5rem;
 }
-section#stars-and-mas-vendido p#mas-vendido{
+section#stars-and-mas-vendido p#mas-vendido {
   width: 30vw;
   text-align: center;
   color: white;
@@ -45,21 +48,21 @@ section#stars-and-mas-vendido p#mas-vendido{
   border-radius: 0.2rem;
   font-size: 0.7rem;
 }
-article#img-article img{
+article#img-article img {
   width: 100%;
   border-radius: 0.3rem;
 }
-section#img-article{
+section#img-article {
   text-align: center;
 }
-article#footer-product{
+article#footer-product {
   /* background-color: white; */
 }
-section#section-share{
+section#section-share {
   display: flex;
   justify-content: flex-end;
 }
-i.fa-share-alt{
+i.fa-share-alt {
   text-align: center;
   font-size: 16px;
   padding: 5px;
@@ -70,65 +73,65 @@ i.fa-share-alt{
   background-color: rgb(240, 239, 239);
   border-radius: 50%;
 }
-section#option-color{
+section#option-color {
   display: flex;
   justify-content: flex-start;
   margin: 0.5rem 0.5rem;
 }
-select#color-option{
+select#color-option {
   width: 90vw;
   border-radius: 0.3rem;
   background-color: rgb(240, 239, 239);
   border: none;
 }
-section#info-product{
+section#info-product {
   /* background-color: aqua; */
   display: flex;
   align-items: center;
 }
-section#info-product p#precio{
+section#info-product p#precio {
   text-align: start;
   font-size: 1.5rem;
   font-weight: 500;
   margin-right: 0.3rem;
   color: #666;
 }
-section#info-product p#descuento{
+section#info-product p#descuento {
   color: #39b54a;
 }
 /* section#icon-truck{
   text-align: end;
 } */
-section#info-envio{
+section#info-envio {
   margin: 0.5rem 0.2rem;
 }
-section#info-envio p{
+section#info-envio p {
   text-align: start;
   color: #39b54a;
   margin-bottom: 0.5rem;
   font-size: 1rem;
 }
-p#stock{
+p#stock {
   text-align: start;
   font-weight: 700;
   color: #666;
 }
-section#cantidad-product{
+section#cantidad-product {
   display: flex;
   justify-content: flex-start;
   margin: 0.5rem 0.3rem;
 }
-select#cantidad{
+select#cantidad {
   width: 90vw;
   background-color: rgb(240, 239, 239);
   border: none;
   border-radius: 0.3rem;
 }
-section#buttons{
+section#buttons {
   display: flex;
   flex-direction: column;
 }
-button#comprar{
+button#comprar {
   width: 80vw;
   background-color: #1259c3;
   color: white;
@@ -139,9 +142,9 @@ button#comprar{
   padding: 0.5rem;
   font-weight: 600;
 }
-button#agregar-carrito{
+button#agregar-carrito {
   width: 80vw;
-  background-color: #E2EDFC;
+  background-color: #e2edfc;
   color: #1259c3;
   border-radius: 0.3rem;
   border: none;
@@ -150,127 +153,153 @@ button#agregar-carrito{
   padding: 0.5rem;
   font-weight: 600;
 }
-@media screen and (min-width: 768px){
-section#name-product{
-  margin-left: 1rem;
-}
-p#corazon{
-  margin-right: 1rem;
-}
-section#stars-and-mas-vendido{
-  margin-left: 1rem;
-}
-  i.fa-heart{
-    display: flex;
+@media screen and (min-width: 768px) {
+  section#name-product {
+    margin-left: 1rem;
   }
-  section#stars-and-mas-vendido p#mas-vendido{
-    width: 15vw;
-  }
-  article#img-article img{
-    width: 40%;
-  }
-  article#footer-product{
-    /* background-color: white; */
-  }
-  section#section-share{
+  p#corazon {
     margin-right: 1rem;
   }
-  section#option-color{
+  section#stars-and-mas-vendido {
+    /* margin-left: 1rem; */
+  }
+  i.fa-heart {
+    display: flex;
+  }
+  section#stars-and-mas-vendido p#mas-vendido {
+    width: 15vw;
+  }
+  article#img-article img {
+    width: 40%;
+  }
+  article#footer-product {
+    /* background-color: white; */
+  }
+  section#section-share {
+    margin-right: 1rem;
+  }
+  section#option-color {
     justify-content: center;
   }
-  select#color-option{
+  select#color-option {
     width: 50vw;
   }
-  section#info-product{
+  section#info-product {
     margin-top: 1rem;
   }
-  section#info-product p#precio{
+  section#info-product p#precio {
     margin-left: 1rem;
   }
   /* section#icon-truck{
     text-align: end;
   } */
-  section#info-envio p{
+  section#info-envio p {
     text-align: center;
     margin-bottom: 1rem;
   }
-  p#stock{
+  p#stock {
     text-align: center;
     margin: 1rem;
   }
-  section#cantidad-product{
+  section#cantidad-product {
     justify-content: center;
   }
-  select#cantidad{
+  select#cantidad {
     width: 50vw;
     margin: 0.5rem;
   }
-  section#buttons{
+  section#buttons {
     display: flex;
     flex-direction: column;
   }
-  button#comprar{
+  button#comprar {
     width: 50vw;
   }
-  button#agregar-carrito{
+  button#agregar-carrito {
     width: 50vw;
   }
 }
 @media screen and (min-width: 1200px) {
-  section#articulo-product-detaill{
-    height: 90vh;
-    position: relative;
-  }
-  section#header-product{
-    order: 1;
-    width: 25vw;
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    right: 1rem;
-    top: 10%;
-  }
-  section#img-article{
-    order: 0;
-    position: absolute;
-    left: 9rem;
-    top: 15%;
-  }
-  article#img-article img{
-    width: 35vw;
-    /* text-align: start; */
-  }
-  section#footer-product{
-    position: absolute;
-    right: 0;
-    bottom: 20%;
-  }
-  article#footer-product{
-    order: 2;
-    width: 30vw;
-    /* display: flex; */
-    /* justify-content: flex-end; */
-    /* flex-flow: row wrap; */
-  }
-  section#section-share{
+  article#sacar {
     display: none;
   }
-  select#color-option{
+  article#conteiner-1200px {
+    display: flex;
+    justify-content: flex-end;
+  }
+  article#activar {
+    display: flex;
+    justify-content: space-between;
+    width: 80vw;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-color: white;
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+  }
+  article#img-article img {
+    width: 40vw;
+  }
+  article#img-article {
+    margin-left: 4rem;
+    border-bottom: solid #666 1px;
+  }
+  section#info-product-1200px {
+    border: #666 solid 1px;
+    border-radius: 0.5rem;
+    margin: 0.5rem;
+    width: 25vw;
+  }
+  p#nombre {
+    text-align: start;
+    font-size: 1.5rem;
+    margin: 0.5rem;
+  }
+  p#corazon {
+    margin-right: 1rem;
+  }
+  p#stars {
+    text-align: start;
+    /* margin-left: 0.5rem; */
+  }
+  section#stars-and-mas-vendido {
+    text-align: start;
+    margin-left: 0.5rem;
+  }
+  section#stars-and-mas-vendido p#mas-vendido {
+    width: 8vw;
+  }
+  select#color-option {
     width: 20vw;
+  }
+  section#info-product {
+    margin-top: 1rem;
+  }
+  section#info-product p#precio {
+    margin-left: 0.5rem;
   }
   /* section#icon-truck{
-    text-align: end;
-  } */
-  p#stock{
-    text-align: start;
+      text-align: end;
+    } */
+  section#info-envio p {
+    margin-left: 0.5rem;
+    text-align: left;
   }
-  select#cantidad{
+  p#stock {
+    margin-left: 0.5rem;
+    text-align: left;
+  }
+  select#cantidad {
     width: 20vw;
   }
-  button#comprar{
+  button#comprar {
     width: 20vw;
+    padding: 0.7rem;
   }
-  button#agregar-carrito{
+  button#agregar-carrito {
     width: 20vw;
+    padding: 0.7rem;
   }
 }

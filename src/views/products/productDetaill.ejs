@@ -3,6 +3,9 @@
   <%- include("../includes/head") %>
   <body>
     <%- include("../includes/header") %> 
+    <main>
+    <!-- cuando llega a 1200px se activa -->
+      <article id="sacar">
     <section id="articulo-product-detaill">
       <section id="header-product">
       <section id="name-product">
@@ -68,6 +71,63 @@
     </article>
   </section>
   </section>
+</article>
+<!-- esto se activa cuando llega a 1200px -->
+<article id="activar">
+  <section id="img-article">
+    <article id="img-article">
+      <figure>
+        <img src="/<%= detaill.imagenes[0].url %>" alt="" />
+      </figure>
+    </article>
+  </section>
+  <section id="info-product-1200px">
+    <p id="nombre"> <%= detaill.name %></p>
+    <p id="corazon"><i class="far fa-heart"></i></p>
+    <section id="stars-and-mas-vendido">
+    <p id="stars"><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></p>
+    <p id="mas-vendido">MAS VENDIDO</p>
+  </section>
+    <section id="info-product">
+      <p id="precio"><%= detaill.price %></p>
+      <p id="descuento"><%= detaill.oferts %></p>
+      <!-- <section id="icon-truck">
+      <p id="truck"><i class="fas fa-truck"></i></p>
+    </section> -->
+    </section>
+    <section id="info-envio">
+     <p>Llega gratis <strong>entre el jueves y el viernes</strong></p>
+      <p>Devolucion gratis</p>
+    </section>
+    <section id="option-color">
+      <select name="color-option" id="color-option">
+        <option value=""></option>
+        <option value="black">Black</option>
+        <option value="red">Red</option>
+        <option value="blue">Blue</option>
+        <option value="white">White</option>
+      </select>
+    </section>
+    <p id="stock">Stock disponible</p>
+    <section id="cantidad-product">
+      <select name="cantidad" id="cantidad">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+      </select>
+    </section>
+    <section id="buttons">
+      <button type="button" id="comprar">Comprar</button>
+      <button type="button" id="agregar-carrito">Agregar al carrito</button>
+    </section>
+  </article>
+  </main>
     <%- include("../includes/footer") %>
   </body>
 </html>
