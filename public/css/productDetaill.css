@@ -39,6 +39,9 @@ section#stars-and-mas-vendido p#stars {
   color: #1259c3;
   margin-bottom: 0.5rem;
 }
+p#stars{
+  text-align: start;
+}
 section#stars-and-mas-vendido p#mas-vendido {
   width: 30vw;
   text-align: center;
