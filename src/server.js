@@ -38,8 +38,8 @@ const main = require("./routers/main");
 app.use(main);
 const product = require("./routers/productos");
 app.use(product);
-// const user = require("./routers/user");
-// app.use(user)
+const user = require("./routers/user");
+app.use(user);
 
 
 // En App requerimos las rutas, 

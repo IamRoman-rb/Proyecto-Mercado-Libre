@@ -10,7 +10,8 @@ module.exports = (req, res, next) => {
     if (req.session.user != undefined) {
         user = req.session.user;
     }
-    res.locals.user = null;
+    
+    res.locals.user = user;
 
     next();
 };

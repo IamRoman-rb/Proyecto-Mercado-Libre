@@ -8,7 +8,8 @@
     <img class="banner" src="/img/img-home-banner.jpg">
       <main class="main-sing-up">
           <p id="mensaje-sing-up">Ingresa Tu Cuenta</p>
-        <section class="usuario">
+        <form action="/save" method="POST">
+          <section class="usuario">
           <label for="Usuario">
           <input type="text" placeholder="Nombre de Usuario"name="usuario" id="usuario">
           </label>
@@ -23,6 +24,7 @@
             <button type="button" name="enviar">Enviar</button>
           </label>
         </section> 
+      </form>
       </main>
       <%- include("includes/footer") %> 
      </body>
