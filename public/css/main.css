@@ -29,7 +29,7 @@ article.articulo {
   transition-property: all;
   transition-duration: 0.5s;
 }
-article.articulo:hover {
+article.articulo:hover{
   box-shadow: 0px 0px 10px rgb(100, 100, 100);
   transform: scale(1.03);
 }
@@ -41,7 +41,9 @@ article.articulo:hover {
   flex-wrap: wrap;
   flex-direction: row;
 }
-
+article.articulo:hover .fa-truck{
+  transform: rotate(360deg);
+}
 .fa-truck {
   font-size: 16px;
   padding: 5px;
@@ -53,9 +55,6 @@ article.articulo:hover {
   border-radius: 50%;
   transition-property: all;
   transition-duration: 0.5s;
-}
-.fa-truck:hover {
-  transform: rotate(360deg);
 }
 .camion {
   display: flex;

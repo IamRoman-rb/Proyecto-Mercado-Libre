@@ -1,5 +1,5 @@
 header.header {
-  background-color: hsl(50, 82%, 53%);
+  background-color: #FFF159;
   width: 100vw;
   padding: 1rem 0;
 }
@@ -25,7 +25,7 @@ form.barra-busqueda {
   border: none;
   background-color: white;
   font-size: 0.8rem;
-  padding: 0.2rem;
+  /* padding: 0.2rem; */
   margin: auto;
 }
 form.barra-busqueda input {

@@ -26,5 +26,33 @@
         "price": 23.200,
         "imagenes": [4],
         "oferts": "10% off"
+    },
+    {
+        "id": 5,
+        "name": "Controlador Pioneer DDJ-SR2",
+        "price": 167.512,
+        "imagenes": [5],
+        "oferts": "2% off"
+    },{
+        "id": 6,
+        "name": "Apple Tablet ipad 32g",
+        "price": 57.000,
+        "imagenes": [6],
+        "oferts": "10% off"
+    },
+    {
+        "id": 7,
+        "name": "Play Station 5",
+        "price": 214.990,
+        "imagenes": [7],
+        "oferts": ""
+    },
+    {
+        "id": 8,
+        "name": "Xbox Series X",
+        "price": 225.000,
+        "imagenes": [8],
+        "oferts": "" 
     }
+
 ]
