@@ -5,9 +5,9 @@ const userController = require("../controllers/userController");
 const router = express.Router();
 
 router.get("/login", userController.login);  //se utiliza la constante userController para utilizar la ruta
-router.get("/sing-up", userController.singUp);
+router.get("/register", userController.register);
 
-router.post("/save", [validRegister], userController.save)
-router.post("/access", [], userController.access)
+router.post("/save", [validRegister], userController.save)//se encarga de guardar usuarios
+router.post("/access", [], userController.access)//se encarga de loguear usuarios
 
 module.exports = router;

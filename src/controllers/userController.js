@@ -5,12 +5,12 @@ const {validationResult} = require("express-validator");
 
 module.exports = {
     login: (req, res) => res.render("login", {title: "Access"}),
-    singUp: (req, res) => res.render("sing-up", {title: "Crea Tu Cuenta"}),
+    register: (req, res) => res.render("register", {title: "Crea Tu Cuenta"}),
 
     save: (req,res) => {
         const errors = validationResult(req);
         if (!errors.isEmpty()) {
-          return res.render("sing-up",{ errors: errors.mapped(),title:"Crea Tu Cuenta",old:req.body });
+          return res.render("register",{ errors: errors.mapped(),title:"Crea Tu Cuenta",old:req.body });
         }else{
           userModel.create(req.body);
           return res.redirect("/login");

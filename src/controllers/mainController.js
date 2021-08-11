@@ -8,8 +8,8 @@ const controller = {
     login: (req, res) => {
         return res.render("login")
     },
-    singUp: (req, res) => {
-        return res.render("sing-up")
+    register: (req, res) => {
+        return res.render("register")
     },
 }
 

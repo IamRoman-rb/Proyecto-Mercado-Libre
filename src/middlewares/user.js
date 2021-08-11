@@ -1,7 +1,7 @@
 const userModel = require("../models/user")
 module.exports = (req, res, next) => {
 
-    const user = null;
+    let user = null;
 
     if (req.cookies.user != undefined) {
         user = userModel.search("email", req.cookies.user);

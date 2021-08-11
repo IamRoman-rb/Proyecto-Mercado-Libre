@@ -1,1 +1,13 @@
-[]
+[
+  {
+    "id": 1,
+    "nombre": "Roman Borla",
+    "usuario": "IamRoman_Ok",
+    "email": "Roman.borla2004@gmail.com",
+    "fecha": "",
+    "domicilio": "las toninas",
+    "password": "$2b$10$pAZLvIizc3A5o2hk/RM4y.d3EmG8EjtCTdfJU9b9qDJlRNKHQ49yG",
+    "enviar": "register",
+    "avatar": "user/default.png"
+  }
+]

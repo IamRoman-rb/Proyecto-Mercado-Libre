@@ -1,6 +1,7 @@
 const path = require("path");
 const fs = require("fs");
 const typeModel = require("./type")
+const bcrypt = require("bcrypt")
 
 module.exports = {
     directory: path.resolve(__dirname, "../data", "user.json"), //path.resolve devuelve la ruta
@@ -33,11 +34,12 @@ module.exports = {
         return quantity > 0 ? elements[last].id + 1 : 1;
     },
     write: function(data){
-        return fs.writeFileSync(this.directory, JSON.stringify(data))
+        return fs.writeFileSync(this.directory, JSON.stringify(data, null, 2))
     },
     create: function(data, file){
         const elements = this.all();
-        const avatar = filter != undefined ? "user" + file.filename : "user/default.png"
+        const avatar = file != undefined ? "user" + file.filename : "user/default.png";
+        data.password = bcrypt.hashSync(String(data.password), 10) //esto incripta la contraseña
         const user = {id: this.generateId(), ...data,avatar}
         elements.push(user);
         this.write(elements);

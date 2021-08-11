@@ -7,6 +7,6 @@ const controlador = require("../controllers/mainController")
 //Websites Routes
 app.get("/", controlador.index);
 app.get("/login", controlador.login);
-app.get("/sing-up", controlador.singUp);
+app.get("/register", controlador.register);
 
 module.exports = app;
